@@ -9,7 +9,7 @@ URL: http://llvm..org/
 Source: http://llvm.org/releases/@PACKAGE_VERSION@/@PACKAGE_NAME@-@PACKAGE_VERSION@.tar.gz
 BuildRoot: %{_tmppath}/%{name}-root
 Requires: /sbin/ldconfig
-BuildRequires: gcc >= 3.4
+BuildRequires: gcc >= 7.4
 
 %description
 LLVM is a compiler infrastructure designed for compile-time, link-time, runtime,
